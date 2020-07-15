@@ -2,8 +2,8 @@
 Matlab code for computing and plotting a receiver operating characteristic (ROC) curve
 
 A binary detector works on two hypotheses:
-0. H_0: The null hypothesis, that is, the normal assumption about the system that generated the data.
-1. H_1: The alternate hypothesis, that is, an alternate system that may have generated the data.  We use an "alarm" if H_1 is decided to be true.
+ * H_0: The null hypothesis, that is, the normal assumption about the system that generated the data.
+ * H_1: The alternate hypothesis, that is, an alternate system that may have generated the data.  We use an "alarm" if H_1 is decided to be true.
 
 In my code, the detector is assumed to be a threshold test which decides H_1 if the value is **above** the threshold, or H_1 if it is below.  
 
